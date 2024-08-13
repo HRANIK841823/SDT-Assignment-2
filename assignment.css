@@ -1,0 +1,99 @@
+/* 
+nam,nationality,team,khela konta ,beton,description choto kore,
+male naki female,image,facebook ar holo instragram amon duita link logor moddhe bosaiya dite hobe
+*/
+.search{
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search input{
+    padding: 20px 100px;
+    border: 2px solid tomato;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.button-action{
+    border: none;
+    background: tomato;
+    padding: 17px 40px;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+   
+}
+.player{
+    border-radius: 12px;
+    padding: 50px 20px;
+    box-shadow: 4px 4px 8px gray;
+    font-size: 15px;
+    color: white;
+    background: rgb(2,0,36);
+ 
+}
+.player-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+}
+.player img{
+    width: 250px;
+    height: 50%;
+    border-radius: 16px;
+}
+.all-container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.addtocart{
+    padding: 10px 30px;
+    width: 300px;
+    background: tomato;
+    box-shadow: 4px 5px 6px rgb(45, 36, 34);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 16px;
+}
+.detail-content{
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: rgb(2,0,36);
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+}
+.detail-button{
+    border: none;
+    padding: 15px 30px;
+    background-color: rgb(241, 18, 14);
+    border-radius: 12px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 15px;
+}
+.button{
+    border: none;
+    background: rgb(224, 73, 73);
+    padding: 10px 18px;
+    border-radius: 12px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+    font-size: 15px;
+}
+.button:hover{
+    background: red;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
